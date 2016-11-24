@@ -1,0 +1,16 @@
+name: dangular_cli
+version: 0.0.1
+description: Angular 2 CLI for Dart
+authors:
+  - Moritz Brandes <john.brandes0x@gmail.com>
+homepage: https://github.com/John0x/dangular-cli
+
+dependencies:
+  args: any
+
+dev_dependencies:
+  grinder: any
+  test: any
+
+executables:
+  dang: main
