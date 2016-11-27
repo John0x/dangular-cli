@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:dangular_cli/utils.dart';
 import "package:path/path.dart" show dirname;
 import 'package:args/command_runner.dart';
 
@@ -15,11 +16,6 @@ class GenerateComponentCommand extends Command {
   }
 
   run() {
-    print(_currentDir);
-    Directory dir = new Directory(_currentDir);
-    dir.list(recursive: true, followLinks: false)
-        .listen((FileSystemEntity entity) {
-      print(entity.path);
-    });
+    Log.error('Not yet implemented');
   }
 }
